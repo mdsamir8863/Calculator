@@ -9,8 +9,8 @@ for (item of buttons) {
       buttonText = "*";
       screenValue += buttonText;
       screen.value = screenValue;
-    } else if (buttonText == "C") {
-      screenValue = "";
+    } else if (buttonText == "del") {
+      screenValue =  " ";
       screen.value = screenValue;
     } else if (buttonText == "=") {
       checkForBracketMulti(); // automatically evaluates if no brackets
